@@ -1,0 +1,30 @@
+id: 000_template
+status: draft
+
+question: ""
+mechanism: ""
+hypothesis: ""
+
+data_required:
+  variables: []
+  frequency: null
+  start: null
+  end: null
+  pit_required: false
+
+method:
+  primary_test: ""
+  robustness_checks: []
+
+result:
+  status: not_run
+  summary: null
+  evidence: []
+
+limitations: []
+next_questions: []
+
+promotion:
+  type: none  # none | data_request | public_feature | factor_candidate
+  target: null
+  rationale: null

@@ -1,0 +1,42 @@
+id: 001_supply_elasticity
+status: learning
+
+topic: supply_elasticity
+question: "Why can small changes in commodity demand create large price changes?"
+mechanism: "When short-run supply is inelastic, quantity cannot adjust quickly, so shocks are absorbed mainly through price."
+hypothesis: "Commodity prices should react more strongly to demand shocks when short-run supply elasticity is low and inventories are limited."
+
+data_required:
+  variables:
+    - commodity_price
+    - production_or_supply
+    - inventory_when_available
+  frequency: mixed
+  start: null
+  end: null
+  pit_required: false
+
+method:
+  primary_test: "Start qualitatively with crude oil and copper; compare the speed and magnitude of price adjustment with physical supply adjustment."
+  robustness_checks:
+    - "Check whether inventories buffer the shock."
+    - "Compare short-run and longer-run supply response."
+
+result:
+  status: not_run
+  summary: null
+  evidence: []
+
+limitations:
+  - "Demand shocks are not directly observed without identification assumptions."
+  - "Inventories, spare capacity, geopolitics, and expectations can dominate short-run price behavior."
+
+next_questions:
+  - "How can short-run supply elasticity be estimated empirically?"
+  - "How does inventory availability alter price sensitivity?"
+  - "How does the mechanism differ between crude oil and copper?"
+
+promotion:
+  type: none
+  target: null
+  rationale: "Learning experiment only; no production feature should be created yet."
